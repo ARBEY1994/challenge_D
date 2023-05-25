@@ -11,14 +11,11 @@ export default function TareaDetalle() {
   const navigate = useNavigate();
   const tareas = useSelector(obtenerTareasPendientes);
 
-  const tareaActual = tareas.find((tarea) =>
-    tarea.descripcion.some((desc) => desc.id === id)
-  );
   const tareaAnterior = tareas.find((tarea) =>
     tarea.descripcion.some((desc) => desc.id === id - 1)
   );
 
-  const finalizarClick = () => {
+  const finalizarClick = async () => {
     if (
       tareaAnterior &&
       !tareaAnterior.descripcion.every((desc) => desc.finalizada)
@@ -27,16 +24,22 @@ export default function TareaDetalle() {
         `Debes finalizar la tarea ${tareaAnterior.titulo} antes de continuar.`
       );
     } else {
-      dispatch(finalizarTarea(parseInt(id)));
-      navigate("/");
+      await Promise.all([dispatch(finalizarTarea(parseInt(id)))]);
     }
+    navigate("/");
   };
   return (
     <div>
       <Navbar />
-      <h1>Detalle de la tarea #{id}</h1>
-      <button onClick={finalizarClick}>Finalizar tarea #{id}</button>
-      {tareaActual && <p>Esta es la tarea actual: {tareaActual.titulo}</p>}
+      <div className="container">
+        <div className="row">
+          <h1>Detalle de la tarea #{id}</h1>
+          <button className="btn btn-secondary" onClick={finalizarClick}>
+            Finalizar tarea #{id}
+          </button>
+        </div>
+      </div>
+
       <Footer />
     </div>
   );

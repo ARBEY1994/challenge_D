@@ -13,9 +13,13 @@ export default function Tareas() {
     dispatch(obtenerData());
   }, [dispatch]);
 
+  const tareasPendientes = tareas.filter(
+    (tarea) => tarea.descripcion[0].finalizada === false
+  );
+  console.log("Estado actualizado:", tareasPendientes);
   return (
     <div className="row justify-content-center">
-      {tareas.map((tarea) => (
+      {tareasPendientes.map((tarea) => (
         <div
           className="card mb-3 mx-3 card-hover"
           style={{ maxWidth: "540px" }}
