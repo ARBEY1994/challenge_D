@@ -5,7 +5,8 @@
       "descripcion": [
         {
           "id": 1,
-          "texto": "Hacer tarea #1"
+          "texto": "Hacer tarea #1",
+          "finalizada": false
         }
       ],
       "imagen": "https://thumbs.dreamstime.com/b/trabajo-de-oficina-concepto-recursos-humanos-dos-j%C3%B3venes-y-hermosas-mujeres-sentadas-en-el-escritorio-mirando-port%C3%A1til-la-171656926.jpg"
@@ -15,7 +16,8 @@
       "descripcion": [
         {
           "id": 2,
-          "texto": "Hacer tarea #2"
+          "texto": "Hacer tarea #2",
+          "finalizada": false
         }
       ],
       "imagen": "https://cdn.colombia.com/sdi/2018/11/26/una-adecuada-oficina-en-casa-aumenta-la-productividad-del-trabajo-688501.jpg"
@@ -25,11 +27,13 @@
       "descripcion": [
         {
           "id": 3.1,
-          "texto": "Hacer tarea #3.1"
+          "texto": "Hacer tarea #3.1",
+          "finalizada": false
         },
         {
           "id": 3.2,
-          "texto": "Hacer tarea #3.2"
+          "texto": "Hacer tarea #3.2",
+          "finalizada": false
         }
       ],
       "imagen": "https://i.pinimg.com/736x/e6/03/c9/e603c915c09446a2bb2cc90994328937.jpg"
@@ -39,15 +43,18 @@
       "descripcion": [
         {
           "id": 4.1,
-          "texto": "Hacer tarea #4.1"
+          "texto": "Hacer tarea #4.1",
+          "finalizada": false
         },
         {
           "id": 4.2,
-          "texto": "Hacer tarea #4.2"
+          "texto": "Hacer tarea #4.2",
+          "finalizada": false
         },
         {
           "id": 4.3,
-          "texto": "Hacer tarea #4.3"
+          "texto": "Hacer tarea #4.3",
+          "finalizada": false
         }
       ],
       "imagen": "https://www.tandemweb.com/wp-content/uploads/2022/01/gente-trabajando-en-la-oficina-1024x576.webp"
@@ -57,11 +64,13 @@
       "descripcion": [
         {
           "id": 5.1,
-          "texto": "Hacer tarea #5.1"
+          "texto": "Hacer tarea #5.1",
+          "finalizada": false
         },
         {
           "id": 5.2,
-          "texto": "Hacer tarea #5.2"
+          "texto": "Hacer tarea #5.2",
+          "finalizada": false
         }
       ],
       "imagen": "https://img.lalr.co/cms/2014/09/08212352/ancla0908-1000_1.jpg?size=xl"
@@ -71,7 +80,8 @@
       "descripcion": [
         {
           "id": 6,
-          "texto": "Hacer tarea #6"
+          "texto": "Hacer tarea #6",
+          "finalizada": false
         }
       ],
       "imagen": "https://resizer.iproimg.com/unsafe/640x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2020/11/506598_landscape.jpg"

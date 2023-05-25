@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 
-export default function navbar() {
+export default function Navbar() {
   return (
     <nav
       className="navbar navbar-expand navbar-dark bg-dark"

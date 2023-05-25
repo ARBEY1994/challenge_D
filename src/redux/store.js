@@ -1,9 +1,10 @@
-import { createStore, applyMiddleware } from "redux";
-import { composeWithDevTools } from "redux-devtools-extension";
-import thunk from "redux-thunk";
-import tareasReducer from "./reducer";
+import { configureStore } from "@reduxjs/toolkit";
+import tareasReducer from "./Slice";
 
-export const store = createStore(
-  tareasReducer,
-  composeWithDevTools(applyMiddleware(thunk))
-);
+const store = configureStore({
+  reducer: {
+    tareas: tareasReducer,
+  },
+});
+
+export default store;

@@ -2,16 +2,16 @@ import React, { useEffect } from "react";
 import "../Styles/tareas.css";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { obtenerData } from "../redux/action";
+import { obtenerTareasPendientes, obtenerData } from "../redux/Slice";
 
 export default function Tareas() {
-  const tareas = useSelector((state) => state.tareasPen);
+  const tareas = useSelector(obtenerTareasPendientes);
+
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(obtenerData());
-    console.log("Estado de tareasPen:", tareas);
-  }, [dispatch, tareas]);
+  }, [dispatch]);
 
   return (
     <div className="row justify-content-center">
