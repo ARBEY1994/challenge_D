@@ -11,6 +11,9 @@ export default function TareaDetalle() {
   const navigate = useNavigate();
   const tareas = useSelector(obtenerTareasPendientes);
 
+  const tareaActual = tareas.find((tarea) =>
+    tarea.descripcion.some((desc) => desc.id === id)
+  );
   const tareaAnterior = tareas.find((tarea) =>
     tarea.descripcion.some((desc) => desc.id === id - 1)
   );
@@ -37,6 +40,7 @@ export default function TareaDetalle() {
           <button className="btn btn-secondary" onClick={finalizarClick}>
             Finalizar tarea #{id}
           </button>
+          {tareaActual && <p>Esta es la tarea actual: {tareaActual.titulo}</p>}
         </div>
       </div>
 
