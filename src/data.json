@@ -1,0 +1,80 @@
+{
+  "tareas": [
+    {
+      "titulo": "Tarea #1",
+      "descripcion": [
+        {
+          "id": 1,
+          "texto": "Hacer tarea #1"
+        }
+      ],
+      "imagen": "https://thumbs.dreamstime.com/b/trabajo-de-oficina-concepto-recursos-humanos-dos-j%C3%B3venes-y-hermosas-mujeres-sentadas-en-el-escritorio-mirando-port%C3%A1til-la-171656926.jpg"
+    },
+    {
+      "titulo": "Tarea #2",
+      "descripcion": [
+        {
+          "id": 2,
+          "texto": "Hacer tarea #2"
+        }
+      ],
+      "imagen": "https://cdn.colombia.com/sdi/2018/11/26/una-adecuada-oficina-en-casa-aumenta-la-productividad-del-trabajo-688501.jpg"
+    },
+    {
+      "titulo": "Tarea #3",
+      "descripcion": [
+        {
+          "id": 3.1,
+          "texto": "Hacer tarea #3.1"
+        },
+        {
+          "id": 3.2,
+          "texto": "Hacer tarea #3.2"
+        }
+      ],
+      "imagen": "https://i.pinimg.com/736x/e6/03/c9/e603c915c09446a2bb2cc90994328937.jpg"
+    },
+    {
+      "titulo": "Tarea #4",
+      "descripcion": [
+        {
+          "id": 4.1,
+          "texto": "Hacer tarea #4.1"
+        },
+        {
+          "id": 4.2,
+          "texto": "Hacer tarea #4.2"
+        },
+        {
+          "id": 4.3,
+          "texto": "Hacer tarea #4.3"
+        }
+      ],
+      "imagen": "https://www.tandemweb.com/wp-content/uploads/2022/01/gente-trabajando-en-la-oficina-1024x576.webp"
+    },
+    {
+      "titulo": "Tarea #5",
+      "descripcion": [
+        {
+          "id": 5.1,
+          "texto": "Hacer tarea #5.1"
+        },
+        {
+          "id": 5.2,
+          "texto": "Hacer tarea #5.2"
+        }
+      ],
+      "imagen": "https://img.lalr.co/cms/2014/09/08212352/ancla0908-1000_1.jpg?size=xl"
+    },
+    {
+      "titulo": "Tarea #6",
+      "descripcion": [
+        {
+          "id": 6,
+          "texto": "Hacer tarea #6"
+        }
+      ],
+      "imagen": "https://resizer.iproimg.com/unsafe/640x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2020/11/506598_landscape.jpg"
+    }
+  ]
+}
