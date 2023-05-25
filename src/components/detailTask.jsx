@@ -37,6 +37,12 @@ export default function TareaDetalle() {
       <div className="container">
         <div className="row">
           <h1>Detalle de la tarea #{id}</h1>
+          <img
+            src="https://img.freepik.com/foto-gratis/grupo-personas-trabajando-plan-negocios-oficina_1303-15768.jpg?w=2000"
+            alt=""
+            width="100em"
+            height="350em"
+          />
           <button className="btn btn-secondary" onClick={finalizarClick}>
             Finalizar tarea #{id}
           </button>
